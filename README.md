@@ -1,6 +1,6 @@
-# StoreReactViteFrontend
+# StoreLooback
 
-Frontend para administrar artículos, ya sea crearlos, modificarlos o eliminarlos, y también ver un listado de estos.
+Backend para administrar artículos, ya sea crearlos, modificarlos o eliminarlos, y también ver un listado de estos.
 
 ## Funcionamiento
 
@@ -15,12 +15,12 @@ Para instalar solo dependencias resueltas en `package-lock.json`:
 ```sh
 npm ci
 ```
-Antes de correr esta aplicacion deberá correr el storeloopback del siguiente repositorio: https://github.com/FacuAce/storeloopback y asegurarse que las constantes `urlArticulos` tanto en `src/pages/articulosPage/ArticulosPage` y `src/pages/articulosPage/ArticulosAdminModal` coincidan con la url del backend.
+Antes de correr la aplicación asegúrese de modificar las credenciales dentro de `src/datasources/mongo-db.datasource.ts` en la constante config con valores de una base de datos mongo local existente.
 
 ## Correr la aplicación
 
 Para iniciar la aplicación utilice el siguiente comando: 
 
 ```sh
-npm run dev
+npm start
 ```

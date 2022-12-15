@@ -17,7 +17,7 @@ npm ci
 ```
 Antes de correr la aplicación asegúrese de modificar las credenciales dentro de `src/datasources/mongo-db.datasource.ts` en la constante config con valores de una base de datos mongo local existente.
 
-# # Correr la aplicación
+## Correr la aplicación
 
 Para iniciar la aplicación utilice el siguiente comando: 
 
